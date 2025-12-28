@@ -11,6 +11,10 @@ import (
 	gossh "golang.org/x/crypto/ssh"
 )
 
+const (
+	x11RequestType = "x11-req"
+)
+
 // Session provides access to information about an SSH session and methods
 // to read and write to the SSH channel with an embedded Channel interface from
 // crypto/ssh.

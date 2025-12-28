@@ -18,7 +18,6 @@ import (
 )
 
 const (
-	x11RequestType = "x11-req"
 	x11ChannelType = "x11"
 
 	X11DisplayHost     = "localhost"
